@@ -1,0 +1,16 @@
+@use "../utilities/variables";
+
+h1{
+    font-family: variables.$main-font-family;
+    font-size: variables.$main-size;
+}
+
+h2{
+    font-family: variables.$main-font-family;
+    font-size: variables.$main-size;
+}
+
+h4{
+    font-family: variables.$main-font-family;
+    font-size: variables.$main-size;
+}
