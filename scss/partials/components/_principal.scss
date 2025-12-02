@@ -1,0 +1,36 @@
+.inicio-container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  h1{
+    color:#f1c40f
+    font-size 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+p{
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 900px; 
+    margin-left: auto;  
+    margin-right: auto;
+}
+img {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .inicio-container {
+    h1 { font-size: 36px; }
+    img { width: 100%; }
+  }
+}
+}

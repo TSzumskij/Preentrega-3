@@ -47,14 +47,26 @@
 </header>
 
 <main>
+  <section class="contacto-section">
     <h1>Muchas gracias por tu visita</h1>
-    <p>Si te gustó, te invito a dejar tus datos y podes agregar cualquier comentario que todo suma!</p>
-    <form action="">
-    <input type="Nombre" placeholder="Nombre">
-    <input type="Email" placeholder="Correo Electronico" >
-    <textarea name="Mensaje" placeholder="Mensaje"></textarea>
-    <button type="sumbit">Enviar</button>
+    <p>Si te gustó, te invito a dejar tus datos y podés agregar cualquier comentario, ¡todo suma!</p>
+    
+    <form action="" class="formulario">
+      <div class="campo">
+        <input type="text" placeholder="Nombre" required>
+      </div>
+
+      <div class="campo">
+        <input type="email" placeholder="Correo Electrónico" required>
+      </div>
+
+      <div class="campo">
+        <textarea name="Mensaje" placeholder="Escribe tu mensaje aquí..." rows="5"></textarea>
+      </div>
+
+      <button type="submit" class="btn-enviar">ENVIAR</button>
     </form>
+  </section>
 </main>
 
 
